@@ -1,0 +1,50 @@
+body {
+  margin: 0 auto;
+  width: 970px;
+}
+
+img {
+  width: 800px;
+  border: 3px solid rgb(251 254 252);
+  border-radius: 30px;
+}
+
+select {
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+  width: 140px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid rgb(255 197 0);
+}
+
+select:hover {
+  transform: scale(1.1);
+}
+
+input {
+  background-color: rgb(255 197 0);
+  color: aliceblue;
+  border: none;
+  border-radius: 10px;
+  height: 30px;
+  width: 80px;
+}
+
+input:hover {
+  transform: scale(1.1);
+}
+
+button {
+  cursor: pointer;
+  background-color: black;
+  color: aliceblue;
+  border: 1px solid rgb(255 197 0);
+  border-radius: 10px;
+  height: 30px;
+}
+
+button:hover {
+  transform: scale(1.1);
+}
